@@ -12,7 +12,7 @@ from sam_segment import detect_with_sam
 st.markdown("""
     <style>
     .title {
-        font-size: 36px;
+        font-size: 30px;
         font-weight: bold;
         color: #1E90FF;
     }
@@ -26,7 +26,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown(
-    "<div class='title'>🤖🍼 Hybrid YOLO+SAM  Model To Detect Automated Plastic Bottle 🍼🤖</div>",
+    "<div class='title'>🤖 Hybrid YOLO+SAM  Model To Detect Automated Plastic Bottle 🤖</div>",
     unsafe_allow_html=True
 )
 
@@ -80,4 +80,4 @@ if uploaded_file:
         )
 
 # Footer
-st.markdown("<div class='footer'>Made with ❤️ by Harsh Mishra</div>", unsafe_allow_html=True)
+st.markdown("<div class='footer'>Made with streamlit</div>", unsafe_allow_html=True)
